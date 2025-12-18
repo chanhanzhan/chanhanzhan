@@ -18,21 +18,21 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🎯 个人简介
+### ✨ 个人简介
 | 属性 | 内容 |
 |:---:|:---|
-| � | Full Stack Developer |
-| � | [XxxXTeam](https://github.com/XxxXTeam) 核心成员 |
+| 💼 | Full Stack Developer |
+| 🏢 | [XxxXTeam](https://github.com/XxxXTeam) 核心成员 |
 | 🔧 | Go / Python / JS / TS |
-| 🎯 | API开发 · 自动化工具 |
+| 🛠️ | API开发 · 自动化工具 |
 
 </td>
 <td width="50%" valign="top">
 
 ### ⚡ 技术方向
-- � 专注于 **API开发** 和 **自动化工具**
-- �💡 从前端到后端，全链路开发
-- 🗄️ 数据库设计与优化
+- 🔭 专注于 **API开发** 和 **自动化工具**
+- � 从前端到后端，全链路开发
+- �️ 数据库设计与优化
 - 🚀 热爱开源，持续学习中
 
 </td>
@@ -83,7 +83,7 @@
 </td>
 <td width="50%">
 
-### 🏢 团队项目 (XxxXTeam)
+### 🏢 团队个人项目 (XxxXTeam)
 [![business2api](https://github-readme-stats.vercel.app/api/pin/?username=XxxXTeam&repo=business2api&theme=tokyonight)](https://github.com/XxxXTeam/business2api)
 
 </td>
@@ -95,8 +95,7 @@
 <div align="center">
 
 <a href="https://github.com/chanhanzhan">
-  <img height="180" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=chanhanzhan&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="180" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=chanhanzhan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img height="180" src="https://github-stats-alpha.vercel.app/api?username=chanhanzhan&cc=0D1117&tc=58A6FF&ic=58A6FF" />
 </a>
 
 <!-- 连续提交 -->
@@ -110,7 +109,7 @@
 ## 🏆 GitHub 成就
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=chanhanzhan&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10" width="95%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=chanhanzhan&theme=darkhub&no-frame=true&no-bg=true&row=1&column=6" width="90%" />
 </p>
 
 ---
