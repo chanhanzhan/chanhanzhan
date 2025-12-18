@@ -1,31 +1,64 @@
 <div align="center">
 
-# Hey 👋 I'm chanhanzhan
+<!-- 头部横幅 -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=chanhanzhan&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20API%20Enthusiast&descAlignY=52&descSize=18" width="100%"/>
 
-[![GitHub followers](https://img.shields.io/github/followers/chanhanzhan?style=social)](https://github.com/chanhanzhan)
-[![GitHub Pro](https://img.shields.io/badge/GitHub-Pro-purple?logo=github)](https://github.com/chanhanzhan)
+<!-- 徽章栏 -->
+[![GitHub followers](https://img.shields.io/github/followers/chanhanzhan?style=for-the-badge&logo=github&color=236ad3)](https://github.com/chanhanzhan)
+[![GitHub Stars](https://img.shields.io/github/stars/chanhanzhan?style=for-the-badge&logo=github&color=f5c842)](https://github.com/chanhanzhan?tab=repositories)
+[![GitHub Pro](https://img.shields.io/badge/GitHub-Pro-purple?style=for-the-badge&logo=github)](https://github.com/chanhanzhan)
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;API+%26+Automation+Enthusiast;Open+Source+Contributor" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=500&lines=%F0%9F%92%BB+Full+Stack+Developer;%F0%9F%9A%80+API+%26+Automation+Enthusiast;%F0%9F%8C%9F+Open+Source+Contributor;%E2%9A%A1+XxxXTeam+Member" alt="Typing SVG" />
 
 </div>
 
 ## 👨‍💻 关于我
 
+```javascript
+const chanhanzhan = {
+    role: "Full Stack Developer",
+    team: "XxxXTeam",
+    code: ["Go", "Python", "JavaScript", "TypeScript"],
+    focus: ["API Development", "Automation Tools", "Web Applications"],
+    funFact: "I turn coffee into code ☕"
+};
+```
+
 - 🔭 全栈开发者，专注于 **API开发** 和 **自动化工具**
-- 🌱 [XxxXTeam](https://github.com/XxxXTeam) 团队成员
+- 🌱 [XxxXTeam](https://github.com/XxxXTeam) 团队核心成员
+- 💡 从前端到后端，从数据库到部署，全链路开发
 - ⚡ 热爱开源，持续学习中
 
 ## 🛠️ 技术栈
 
-<p align="center">
-  <!-- 后端 -->
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />&nbsp;
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />&nbsp;
-  <!-- 前端 -->
+<div align="center">
+
+### 🎨 前端
+<p>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />&nbsp;
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />&nbsp;
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />&nbsp;
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />&nbsp;
 </p>
+
+### ⚙️ 后端
+<p>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />&nbsp;
+</p>
+
+### 🗄️ 数据库 & 工具
+<p>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />&nbsp;
+</p>
+
+</div>
 
 ## 🚀 精选项目
 
@@ -49,22 +82,40 @@
 
 ## 📊 GitHub 统计
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chanhanzhan&show_icons=true&theme=tokyonight&hide_border=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chanhanzhan&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="165" />
-</p>
+<div align="center">
+
+<!-- 统计卡片 -->
+<img src="https://github-readme-stats.vercel.app/api?username=chanhanzhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" height="180" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chanhanzhan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" height="180" />
+
+<!-- 连续提交 -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=chanhanzhan&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" width="70%" />
+
+<!-- 提交活动图 -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=chanhanzhan&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FF6B6B" width="95%" />
+
+<!-- 贡献统计 -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chanhanzhan&theme=tokyonight" width="95%" />
+
+</div>
+
+## 🏆 GitHub 成就
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chanhanzhan&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=chanhanzhan&theme=tokyo-night&hide_border=true" />
+  <img src="https://github-profile-trophy.vercel.app/?username=chanhanzhan&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10" width="95%" />
 </p>
 
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=chanhanzhan&color=blue&style=flat-square" />
-</p>
+<div align="center">
+
+<!-- 底部横幅 -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+
+<!-- 访问计数 -->
+<img src="https://komarev.com/ghpvc/?username=chanhanzhan&color=58A6FF&style=for-the-badge&label=PROFILE+VIEWS" />
+
+**💬 如果你喜欢我的项目，欢迎 Star ⭐ 支持一下！**
+
+</div>
 
