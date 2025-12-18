@@ -31,8 +31,8 @@
 
 ### ⚡ 技术方向
 - 🔭 专注于 **API开发** 和 **自动化工具**
-- � 从前端到后端，全链路开发
-- �️ 数据库设计与优化
+- 💡 从前端到后端，全链路开发
+- 🗃️ 数据库设计与优化
 - 🚀 热爱开源，持续学习中
 
 </td>
@@ -106,11 +106,19 @@
 
 </div>
 
-## 🏆 GitHub 成就
+## � 我的团队 - XxxXTeam
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=chanhanzhan&theme=darkhub&no-frame=true&no-bg=true&row=1&column=6" width="90%" />
-</p>
+<div align="center">
+
+[![XxxXTeam](https://img.shields.io/badge/XxxXTeam-团队主页-58A6FF?style=for-the-badge&logo=github)](https://github.com/XxxXTeam)
+
+| 项目 | 描述 | 技术栈 | Stars |
+|:---|:---|:---:|:---:|
+| [business2api](https://github.com/XxxXTeam/business2api) | 谷歌business2api | Go | ⭐ 57 |
+| [chatai-plugin](https://github.com/XxxXTeam/chatai-plugin) | Chat AI 插件 | JavaScript | ⭐ 1 |
+| [flowith2api_deno](https://github.com/XxxXTeam/flowith2api_deno) | Flowith2API | TypeScript | ⭐ 9 |
+
+</div>
 
 ---
 
