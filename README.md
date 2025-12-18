@@ -8,26 +8,36 @@
 [![GitHub Stars](https://img.shields.io/github/stars/chanhanzhan?style=for-the-badge&logo=github&color=f5c842)](https://github.com/chanhanzhan?tab=repositories)
 [![GitHub Pro](https://img.shields.io/badge/GitHub-Pro-purple?style=for-the-badge&logo=github)](https://github.com/chanhanzhan)
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=500&lines=%F0%9F%92%BB+Full+Stack+Developer;%F0%9F%9A%80+API+%26+Automation+Enthusiast;%F0%9F%8C%9F+Open+Source+Contributor;%E2%9A%A1+XxxXTeam+Member" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;API+%26+Automation+Enthusiast;Open+Source+Contributor;XxxXTeam+Member" alt="Typing SVG" />
 
 </div>
 
 ## 👨‍💻 关于我
 
-```javascript
-const chanhanzhan = {
-    role: "Full Stack Developer",
-    team: "XxxXTeam",
-    code: ["Go", "Python", "JavaScript", "TypeScript"],
-    focus: ["API Development", "Automation Tools", "Web Applications"],
-    funFact: "I turn coffee into code ☕"
-};
-```
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- 🔭 全栈开发者，专注于 **API开发** 和 **自动化工具**
-- 🌱 [XxxXTeam](https://github.com/XxxXTeam) 团队核心成员
-- 💡 从前端到后端，从数据库到部署，全链路开发
-- ⚡ 热爱开源，持续学习中
+### 🎯 个人简介
+| 属性 | 内容 |
+|:---:|:---|
+| � | Full Stack Developer |
+| � | [XxxXTeam](https://github.com/XxxXTeam) 核心成员 |
+| 🔧 | Go / Python / JS / TS |
+| 🎯 | API开发 · 自动化工具 |
+
+</td>
+<td width="50%" valign="top">
+
+### ⚡ 技术方向
+- � 专注于 **API开发** 和 **自动化工具**
+- �💡 从前端到后端，全链路开发
+- 🗄️ 数据库设计与优化
+- 🚀 热爱开源，持续学习中
+
+</td>
+</tr>
+</table>
 
 ## 🛠️ 技术栈
 
@@ -84,18 +94,16 @@ const chanhanzhan = {
 
 <div align="center">
 
-<!-- 统计卡片 -->
-<img src="https://github-readme-stats.vercel.app/api?username=chanhanzhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" height="180" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chanhanzhan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" height="180" />
+<a href="https://github.com/chanhanzhan">
+  <img height="180" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=chanhanzhan&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="180" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=chanhanzhan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+</a>
 
 <!-- 连续提交 -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=chanhanzhan&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" width="70%" />
+<img src="https://streak-stats.demolab.com/?user=chanhanzhan&theme=tokyonight&hide_border=true" width="70%" />
 
 <!-- 提交活动图 -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=chanhanzhan&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FF6B6B" width="95%" />
-
-<!-- 贡献统计 -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chanhanzhan&theme=tokyonight" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=chanhanzhan&theme=tokyo-night&hide_border=true" width="95%" />
 
 </div>
 
