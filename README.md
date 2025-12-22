@@ -114,7 +114,7 @@
 
 | 项目 | 描述 | 技术栈 | Stars |
 |:---|:---|:---:|:---:|
-| [business2api](https://github.com/XxxXTeam/business2api) | 谷歌business2api | Go | ⭐ 57 |
+| [business2api](https://github.com/XxxXTeam/business2api) | 谷歌business2api | Go | ⭐ 100 |
 | [chatai-plugin](https://github.com/XxxXTeam/chatai-plugin) | Chat AI 插件 | JavaScript | ⭐ 1 |
 | [flowith2api_deno](https://github.com/XxxXTeam/flowith2api_deno) | Flowith2API | TypeScript | ⭐ 9 |
 
