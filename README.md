@@ -23,7 +23,7 @@
 ### ✨ 简介
 - 🏢 [**XxxXTeam**](https://github.com/XxxXTeam) 核心成员
 - 🔧 擅长 **Go / TypeScript / Python**
-- ️ API 架构设计 · 全栈开发 · 自动化工具
+- 🛠️ API 架构设计 · 全栈开发 · 自动化工具
 - 🌐 前端到后端，全链路开发
 - 🚀 热爱开源，持续输出中
 
@@ -67,7 +67,7 @@
   <img src="https://img.shields.io/badge/Deno-000000?style=for-the-badge&logo=deno&logoColor=white" />
 </p>
 
-#### � 自动化 & 工具
+#### 🔧 自动化 & 工具
 <p>
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" />
   <img src="https://img.shields.io/badge/Puppeteer-40B5A4?style=for-the-badge&logo=puppeteer&logoColor=white" />
@@ -88,6 +88,8 @@
 ## 📊 GitHub 统计
 
 <div align="center">
+
+<!-- Stats 卡片 + Top Languages -->
 <a href="https://github.com/chanhanzhan">
   <picture>
     <img height="180" src="./profile/stats.svg" alt="GitHub Stats" />
@@ -102,8 +104,30 @@
 <!-- 连续提交 -->
 <img src="https://streak-stats.demolab.com/?user=chanhanzhan&theme=tokyonight&hide_border=true" width="70%" />
 
+<!-- GitHub 奖杯 -->
+<img src="https://github-profile-trophy.vercel.app/?username=chanhanzhan&theme=tokyonight&no-frame=true&column=7&margin-w=10" width="95%" />
+
+<!-- Profile Summary Cards -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chanhanzhan&theme=tokyonight" width="95%" />
+
+<p>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=chanhanzhan&theme=tokyonight" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=chanhanzhan&theme=tokyonight" width="48%" />
+</p>
+<p>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chanhanzhan&theme=tokyonight" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chanhanzhan&theme=tokyonight&utcOffset=8" width="48%" />
+</p>
+
 <!-- 提交活动图 -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=chanhanzhan&theme=tokyo-night&hide_border=true" width="95%" />
+
+<!-- 贪吃蛇动画 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chanhanzhan/chanhanzhan/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chanhanzhan/chanhanzhan/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/chanhanzhan/chanhanzhan/output/github-snake-dark.svg" width="95%" />
+</picture>
 
 </div>
 
