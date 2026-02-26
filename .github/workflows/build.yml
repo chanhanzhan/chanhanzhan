@@ -2,6 +2,7 @@ name: Update README cards
 
 on:
   schedule:
+    # 每天 UTC 时间 0:00 运行（北京时间 8:00）
     - cron: '0 0 * * *'
   workflow_dispatch: # 支持手动触发
 
@@ -18,17 +19,17 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=chanhanzhan&show_icons=true&include_all_commits=true&count_private=true
+          options: username=chanhanzhan&show_icons=true&include_all_commits=true
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=chanhanzhan&layout=compact&langs_count=6&include_orgs=true
+          options: username=chanhanzhan&layout=compact&langs_count=6
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Generate pin card
         uses: readme-tools/github-readme-stats-action@v1
@@ -36,7 +37,7 @@ jobs:
           card: pin
           options: username=chanhanzhan&repo=chanhanzhan
           path: profile/pin-chanhanzhan-chanhanzhan.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Commit cards
         run: |
