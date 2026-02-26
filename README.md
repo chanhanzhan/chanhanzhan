@@ -24,7 +24,7 @@
 | 💼 | Full Stack Developer |
 | 🏢 | [XxxXTeam](https://github.com/XxxXTeam) 核心成员 |
 | 🔧 | Go / Python / JS / TS |
-| 🛠️ | API开发 · 自动化工具 |
+| 🛠️ | API开发 · 自动化工具 · 全栈开发 |
 
 </td>
 <td width="50%" valign="top">
@@ -123,13 +123,9 @@
 ---
 
 <div align="center">
-
-<!-- 底部横幅 -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
-
 <!-- 访问计数 -->
 <img src="https://komarev.com/ghpvc/?username=chanhanzhan&color=58A6FF&style=for-the-badge&label=PROFILE+VIEWS" />
-
+  
 **💬 如果你喜欢我的项目，欢迎 Star ⭐ 支持一下！**
 
 </div>
