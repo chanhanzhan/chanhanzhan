@@ -31,12 +31,36 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.PAT_TOKEN }}
 
-      - name: Generate pin card
+      - name: Generate pin card - chanhanzhan
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
           options: username=chanhanzhan&repo=chanhanzhan
           path: profile/pin-chanhanzhan-chanhanzhan.svg
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Generate pin card - business2api
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=XxxXTeam&repo=business2api
+          path: profile/pin-XxxXTeam-business2api.svg
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Generate pin card - flowith2api_deno
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=XxxXTeam&repo=flowith2api_deno
+          path: profile/pin-XxxXTeam-flowith2api_deno.svg
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Generate pin card - chatai-plugin
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=XxxXTeam&repo=chatai-plugin
+          path: profile/pin-XxxXTeam-chatai-plugin.svg
           token: ${{ secrets.PAT_TOKEN }}
 
       - name: Commit cards
