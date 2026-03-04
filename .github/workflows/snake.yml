@@ -2,16 +2,22 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    # 每天 UTC 时间 0:00 运行（北京时间 8:00）
     - cron: '0 0 * * *'
-  workflow_dispatch: # 支持手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snake-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Generate github-contribution-grid-snake.svg
+      - name: Generate snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: chanhanzhan

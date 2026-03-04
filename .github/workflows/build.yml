@@ -1,80 +1,91 @@
-name: Update README cards
+name: Update Profile Cards
 
 on:
   schedule:
-    # 每天 UTC 时间 0:00 运行（北京时间 8:00）
     - cron: '0 0 * * *'
-  workflow_dispatch: # 支持手动触发
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [README.md]
 
 permissions:
   contents: write
 
+concurrency:
+  group: profile-cards-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate stats card
+      # stats 卡片 - 包含全部提交记录，显示图标，隐藏边框
+      - name: Stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=chanhanzhan&show_icons=true&include_all_commits=true&theme=tokyonight
+          options: username=chanhanzhan&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true
           path: profile/stats.svg
           token: ${{ secrets.PAT_TOKEN }}
 
-      - name: Generate top languages card
+      # top-langs 卡片 - 紧凑布局，显示前 8 语言
+      - name: Top languages card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=chanhanzhan&layout=compact&langs_count=6&theme=tokyonight
+          options: username=chanhanzhan&layout=compact&langs_count=8&theme=tokyonight&hide_border=true
           path: profile/top-langs.svg
           token: ${{ secrets.PAT_TOKEN }}
 
-      - name: Generate pin card - Microsoft-Rewards
+      # 个人项目 pin 卡片
+      - name: Pin - Microsoft-Rewards
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=chanhanzhan&repo=Microsoft-Rewards&theme=tokyonight
+          options: username=chanhanzhan&repo=Microsoft-Rewards&theme=tokyonight&hide_border=true
           path: profile/pin-chanhanzhan-Microsoft-Rewards.svg
           token: ${{ secrets.PAT_TOKEN }}
 
-      - name: Generate pin card - Telegram-Bot-go
+      - name: Pin - Telegram-Bot-go
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=chanhanzhan&repo=Telegram-Bot-go&theme=tokyonight
+          options: username=chanhanzhan&repo=Telegram-Bot-go&theme=tokyonight&hide_border=true
           path: profile/pin-chanhanzhan-Telegram-Bot-go.svg
           token: ${{ secrets.PAT_TOKEN }}
 
-      - name: Generate pin card - business2api
+      # XxxXTeam 组织项目 pin 卡片
+      - name: Pin - business2api
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=XxxXTeam&repo=business2api&theme=tokyonight
+          options: username=XxxXTeam&repo=business2api&theme=tokyonight&hide_border=true
           path: profile/pin-XxxXTeam-business2api.svg
           token: ${{ secrets.PAT_TOKEN }}
 
-      - name: Generate pin card - flowith2api_deno
+      - name: Pin - flowith2api_deno
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=XxxXTeam&repo=flowith2api_deno&theme=tokyonight
+          options: username=XxxXTeam&repo=flowith2api_deno&theme=tokyonight&hide_border=true
           path: profile/pin-XxxXTeam-flowith2api_deno.svg
           token: ${{ secrets.PAT_TOKEN }}
 
-      - name: Generate pin card - chatai-plugin
+      - name: Pin - chatai-plugin
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=XxxXTeam&repo=chatai-plugin&theme=tokyonight
+          options: username=XxxXTeam&repo=chatai-plugin&theme=tokyonight&hide_border=true
           path: profile/pin-XxxXTeam-chatai-plugin.svg
           token: ${{ secrets.PAT_TOKEN }}
 
-      - name: Commit cards
+      - name: Commit changes
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
-          git commit -m "Update README cards [skip ci]" || exit 0
+          git diff --staged --quiet || git commit -m "chore: update profile cards [skip ci]"
           git push
