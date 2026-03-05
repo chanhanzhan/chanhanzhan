@@ -12,7 +12,7 @@
 
 [XxxXTeam](https://github.com/XxxXTeam) 核心成员，专注 API 逆向工程与全栈开发。
 
-- 主力语言：**Go / TypeScript / Python**
+- 主力语言：**Go / TypeScript / Node.Js**
 - 方向：API 架构设计、浏览器自动化、Bot 生态开发
 - 当前：构建高可用 API 代理服务与开源工具链
 
